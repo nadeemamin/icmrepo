@@ -1,0 +1,109 @@
+-- Merging decision tree log ---
+manifest
+ADDED from H:\andriodws\ICMSalah\app\src\main\AndroidManifest.xml:1:1-21:12
+INJECTED from H:\andriodws\ICMSalah\app\src\main\AndroidManifest.xml:1:1-21:12
+INJECTED from H:\andriodws\ICMSalah\app\src\main\AndroidManifest.xml:1:1-21:12
+INJECTED from H:\andriodws\ICMSalah\app\src\main\AndroidManifest.xml:1:1-21:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\nadeem\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\92c2a589b4f05f7a89ff1d58c83b4262\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\nadeem\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\fd7b115ca26bda356c3cc57505a4b8db\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\nadeem\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\9e61b4c56f4aa07d8edba03f527a202e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\nadeem\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\3986898e0adf51a667d2e6a677fb38d9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\nadeem\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\cf1acbf865a746e6d4fb69ed42ec9976\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\nadeem\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\b37805af102f465db01a9b143b7158d0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\nadeem\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\18620ea918866236e0f23400e0dec3ef\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\nadeem\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\f75478cee9080fc670ae276118c94583\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\nadeem\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\10c0d79a913238914e951744894f2b4b\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\nadeem\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\2c034ab12328cf06278a6d83703c9412\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\nadeem\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\a29e30af398ad32c0a587f6af2aae665\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\nadeem\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\2ec2ec95c31c08242f2630bbf7b73d7e\AndroidManifest.xml:17:1-22:12
+INJECTED from H:\andriodws\ICMSalah\app\src\main\AndroidManifest.xml:1:1-21:12
+INJECTED from H:\andriodws\ICMSalah\app\src\main\AndroidManifest.xml:1:1-21:12
+INJECTED from H:\andriodws\ICMSalah\app\src\main\AndroidManifest.xml:1:1-21:12
+	package
+		ADDED from H:\andriodws\ICMSalah\app\src\main\AndroidManifest.xml:3:5-29
+		INJECTED from H:\andriodws\ICMSalah\app\src\main\AndroidManifest.xml
+		INJECTED from H:\andriodws\ICMSalah\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from H:\andriodws\ICMSalah\app\src\main\AndroidManifest.xml
+		ADDED from H:\andriodws\ICMSalah\app\src\main\AndroidManifest.xml:1:1-21:12
+		INJECTED from H:\andriodws\ICMSalah\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from H:\andriodws\ICMSalah\app\src\main\AndroidManifest.xml:2:5-51
+	android:versionCode
+		INJECTED from H:\andriodws\ICMSalah\app\src\main\AndroidManifest.xml
+		ADDED from H:\andriodws\ICMSalah\app\src\main\AndroidManifest.xml:1:1-21:12
+		INJECTED from H:\andriodws\ICMSalah\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from H:\andriodws\ICMSalah\app\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from H:\andriodws\ICMSalah\app\src\main\AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from H:\andriodws\ICMSalah\app\src\main\AndroidManifest.xml:4:22-64
+application
+ADDED from H:\andriodws\ICMSalah\app\src\main\AndroidManifest.xml:5:5-19:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\nadeem\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\fd7b115ca26bda356c3cc57505a4b8db\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\nadeem\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\fd7b115ca26bda356c3cc57505a4b8db\AndroidManifest.xml:9:5-20
+	android:supportsRtl
+		ADDED from H:\andriodws\ICMSalah\app\src\main\AndroidManifest.xml:9:9-35
+	android:label
+		ADDED from H:\andriodws\ICMSalah\app\src\main\AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from H:\andriodws\ICMSalah\app\src\main\AndroidManifest.xml:10:9-48
+	android:icon
+		ADDED from H:\andriodws\ICMSalah\app\src\main\AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from H:\andriodws\ICMSalah\app\src\main\AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from H:\andriodws\ICMSalah\app\src\main\AndroidManifest.xml:11:9-56
+activity#org.icm.masjid.DisplayTime
+ADDED from H:\andriodws\ICMSalah\app\src\main\AndroidManifest.xml:12:9-17:20
+	android:name
+		ADDED from H:\andriodws\ICMSalah\app\src\main\AndroidManifest.xml:12:19-45
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from H:\andriodws\ICMSalah\app\src\main\AndroidManifest.xml:13:13-16:29
+action#android.intent.action.MAIN
+ADDED from H:\andriodws\ICMSalah\app\src\main\AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from H:\andriodws\ICMSalah\app\src\main\AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from H:\andriodws\ICMSalah\app\src\main\AndroidManifest.xml:15:17-77
+	android:name
+		ADDED from H:\andriodws\ICMSalah\app\src\main\AndroidManifest.xml:15:27-74
+uses-sdk
+INJECTED from H:\andriodws\ICMSalah\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from H:\andriodws\ICMSalah\app\src\main\AndroidManifest.xml
+INJECTED from H:\andriodws\ICMSalah\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\nadeem\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\92c2a589b4f05f7a89ff1d58c83b4262\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\nadeem\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\92c2a589b4f05f7a89ff1d58c83b4262\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\nadeem\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\fd7b115ca26bda356c3cc57505a4b8db\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\nadeem\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\fd7b115ca26bda356c3cc57505a4b8db\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\nadeem\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\9e61b4c56f4aa07d8edba03f527a202e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\nadeem\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\9e61b4c56f4aa07d8edba03f527a202e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\nadeem\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\3986898e0adf51a667d2e6a677fb38d9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\nadeem\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\3986898e0adf51a667d2e6a677fb38d9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\nadeem\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\cf1acbf865a746e6d4fb69ed42ec9976\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\nadeem\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\cf1acbf865a746e6d4fb69ed42ec9976\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\nadeem\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\b37805af102f465db01a9b143b7158d0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\nadeem\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\b37805af102f465db01a9b143b7158d0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\nadeem\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\18620ea918866236e0f23400e0dec3ef\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\nadeem\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\18620ea918866236e0f23400e0dec3ef\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\nadeem\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\f75478cee9080fc670ae276118c94583\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\nadeem\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\f75478cee9080fc670ae276118c94583\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\nadeem\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\10c0d79a913238914e951744894f2b4b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\nadeem\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\10c0d79a913238914e951744894f2b4b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\nadeem\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\2c034ab12328cf06278a6d83703c9412\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\nadeem\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\2c034ab12328cf06278a6d83703c9412\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\nadeem\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\a29e30af398ad32c0a587f6af2aae665\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\nadeem\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\a29e30af398ad32c0a587f6af2aae665\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\nadeem\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\2ec2ec95c31c08242f2630bbf7b73d7e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\nadeem\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\2ec2ec95c31c08242f2630bbf7b73d7e\AndroidManifest.xml:20:5-44
+INJECTED from H:\andriodws\ICMSalah\app\src\main\AndroidManifest.xml
+INJECTED from H:\andriodws\ICMSalah\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from H:\andriodws\ICMSalah\app\src\main\AndroidManifest.xml
+		ADDED from H:\andriodws\ICMSalah\app\src\main\AndroidManifest.xml
+		INJECTED from H:\andriodws\ICMSalah\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from H:\andriodws\ICMSalah\app\src\main\AndroidManifest.xml
+		ADDED from H:\andriodws\ICMSalah\app\src\main\AndroidManifest.xml
+		INJECTED from H:\andriodws\ICMSalah\app\src\main\AndroidManifest.xml

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/GridLayout1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:background="@color/white"
+    android:columnCount="1"
+    android:orientation="horizontal"
+    android:rowCount="2"
+    tools:context=".DisplayTime">
+
+    <TextView
+        android:id="@+id/dateDisplay"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/white"
+        android:textSize="60sp"
+        android:textStyle="bold" />
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:columnCount="2"
+        android:orientation="horizontal"
+        android:rowCount="1">
+
+        <TableLayout
+            android:id="@+id/table_main"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:fontFamily="sans-serif"
+            android:background="@color/white"
+            android:gravity="left"/>
+
+        <TableLayout
+            android:id="@+id/table_side"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:fontFamily="sans-serif"
+            android:gravity="right"/>
+
+    </GridLayout>
+
+</GridLayout>
+
