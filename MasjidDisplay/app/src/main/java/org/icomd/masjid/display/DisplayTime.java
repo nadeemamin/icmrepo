@@ -168,13 +168,13 @@ public class DisplayTime extends AppCompatActivity {
         TextView view = new TextView(this);
         view.setText(text);
         if (reverse) {
-            view.setTextColor(getResources().getColor(R.color.gray));
+            view.setTextColor(getResources().getColor(R.color.white));
             view.setAllCaps(true);
             view.setTypeface(view.getTypeface(), Typeface.BOLD);
-            view.setBackgroundColor(getResources().getColor(R.color.light_blue));
+            view.setBackgroundColor(getResources().getColor(R.color.blue));
         } else {
-            view.setTextColor(getResources().getColor(R.color.gray));
-            view.setBackgroundColor(getResources().getColor(R.color.white));
+            view.setTextColor(getResources().getColor(R.color.black));
+            view.setBackgroundColor(getResources().getColor(R.color.white_smoke));
 
         }
         view.setTextSize(size);
@@ -269,6 +269,9 @@ public class DisplayTime extends AppCompatActivity {
                     Log.e("Start create Main","Jummah on "+i);
                     String location = item.getString("location");
                     String khatib = item.getString("khatib");
+                    if(khatib.length()>10){
+                        khatib=khatib.substring(0,10);
+                    }
                     String time = item.getString("time");
                     if (location != null && location.toUpperCase().contains("ICM") ) {
                         row = new TableRow(this);
@@ -278,9 +281,12 @@ public class DisplayTime extends AppCompatActivity {
                         createCell(khatib, row);
                         createCell(spacesize, row, Boolean.FALSE);
                         createCell(time, row);
+                        Log.d("jummah # " + i + "=", location + "-" + khatib + "-" + time);
                         table.addView(row);
+                    }else{
+                        Log.d("NOT ICM jummah # " + i + "=", location + "-" + khatib + "-" + time);
                     }
-                    Log.d("jummah # " + i + "=", location + "-" + khatib + "-" + time);
+
                 } catch (Exception e) {
                     Log.e("Error in jummah loop", e.getMessage());
                 }

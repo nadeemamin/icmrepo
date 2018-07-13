@@ -27,6 +27,11 @@ public class DisplayData {
 
     SimpleDateFormat df = new SimpleDateFormat("MMMM dd yyyy hh:mm:ss aa");
 
+    String ERROR_DATA="{ \"Jummah\":[{ \"location\" : \"ICM\", \"khatib\" : \"*\", \"time\" : \"*\"}] , \"DailySalah\" : [ "+
+            " { \"Salah\"  : \"Fajr\"   ,  \"starts\" :  \"*\", \"iqama\" : \"*\" } ,{ \"Salah\" : \"Zuhr\"    , \"starts\"  :  \"*\", \"iqama\" : \"*\" } ,"+
+            " { \"Salah\" : \"Asr\"    , \"starts\"  :  \"*\", \"iqama\" : \"*\"} ,{ \"Salah\" : \"Maghrib\" , \"starts\"  :  \"*\", \"iqama\" : \"*\"} ,"+
+            " { \"Salah\" : \"Isha\"    , \"starts\"  :  \"*\", \"iqama\" : \"*\" }], \"HijriMonth\" : \"*-**\", \"HijriYear\" : \"*\" }";
+
     static InputStream is = null;
     static JSONObject jObj = null;
     static String json = "";
@@ -106,6 +111,7 @@ public class DisplayData {
             Log.e("JSON", json);
         } catch (Exception e) {
             Log.e("Buffer Error", "Error converting result " + e.toString());
+            json=ERROR_DATA;
         }
         // try parse the string to a JSON object
         try {
