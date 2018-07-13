@@ -13,12 +13,13 @@
 
     <TextView
         android:id="@+id/dateDisplay"
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_gravity="center_horizontal"
         android:fontFamily="sans-serif"
         android:textColor="@color/blue"
-        android:textSize="60sp"
+        android:background="@color/white"
+        android:textSize="65sp"
         android:textStyle="bold" />
 
     <GridLayout

@@ -85,7 +85,7 @@ public class DisplayTime extends AppCompatActivity {
                         runOnUiThread(new Runnable() {
                             @Override
                             public void run() {
-                                TextView dateDisplay = findViewById(R.id.dateDisplay);
+                                TextView dateDisplay = (TextView) findViewById(R.id.dateDisplay);
                                 dateDisplay.setText(displayData.getNow());
                             }
                         });
@@ -112,8 +112,8 @@ public class DisplayTime extends AppCompatActivity {
                 String iqama = item.getString("iqama");
                 int starts_id = (i + 1) * 10;
                 int iqama_id = starts_id + i + 1;
-                TextView startsView = findViewById(starts_id);
-                TextView iqamaView = findViewById(iqama_id);
+                TextView startsView = (TextView) findViewById(starts_id);
+                TextView iqamaView = (TextView) findViewById(iqama_id);
 
                 Log.e("Salah Val", Salah);
                 startsView.setText(starts);
@@ -131,8 +131,8 @@ public class DisplayTime extends AppCompatActivity {
         try {
             year = jo.getString("HijriYear");
             month = jo.getString("HijriMonth");
-            TextView hyearv = findViewById(HIJRI_YEAR);
-            TextView hmonthv = findViewById(HIJRI_MONTH);
+            TextView hyearv = (TextView) findViewById(HIJRI_YEAR);
+            TextView hmonthv =(TextView) findViewById(HIJRI_MONTH);
             hyearv.setText(year);
             hmonthv.setText(month);
         } catch (Exception e) {
@@ -190,7 +190,7 @@ public class DisplayTime extends AppCompatActivity {
         //TableLayout ll = (TableLayout) findViewById(R.id.table_main);
         Log.e("Start create Main","");
 
-        TableLayout table = findViewById(R.id.table_main);
+        TableLayout table = (TableLayout) findViewById(R.id.table_main);
 
         TableRow row = new TableRow(this);
         createCell(spacesize, row, Boolean.FALSE);
@@ -254,7 +254,7 @@ public class DisplayTime extends AppCompatActivity {
             }
 
 
-            table = findViewById(R.id.table_main);
+            table = (TableLayout) findViewById(R.id.table_main);
             row = new TableRow(this);
             createCell(spacesize, row, Boolean.FALSE);
             createCell("Jummah Site", row, Boolean.TRUE);
@@ -311,7 +311,7 @@ public class DisplayTime extends AppCompatActivity {
             Log.e("hijri date load ", "Error parsing data " + e.toString());
         }
 
-        TableLayout table = findViewById(R.id.table_side);
+        TableLayout table = (TableLayout) findViewById(R.id.table_side);
         Log.e("Start side table","create table");
 
         TableRow row = new TableRow(this);
